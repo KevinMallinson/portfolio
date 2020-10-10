@@ -2,32 +2,9 @@
 	<section class="mytabs_area p_120">
 		<div class="container">
 			<div class="tabs_inner">
-				<ul class="nav nav-tabs" id="myTab" role="tablist">
-					<li class="nav-item">
-						<a
-							class="nav-link active"
-							id="home-tab"
-							data-toggle="tab"
-							href="#home"
-							role="tab"
-							aria-controls="home"
-							aria-selected="true"
-							>My Experiences</a
-						>
-					</li>
-					<li class="nav-item">
-						<a
-							class="nav-link"
-							id="profile-tab"
-							data-toggle="tab"
-							href="#profile"
-							role="tab"
-							aria-controls="profile"
-							aria-selected="false"
-							>My Education</a
-						>
-					</li>
-				</ul>
+				<div class="experience-header">
+					<h1>My Experience</h1>
+				</div>
 				<div class="tab-content" id="myTabContent">
 					<div
 						class="tab-pane fade show active"
@@ -39,81 +16,51 @@
 							<li>
 								<span></span>
 								<div class="media">
-									<div class="d-flex">
-										<p>March 2017 to present</p>
+									<div class="d-flex experience-date">
+										<p>Oct 2020 - Present</p>
 									</div>
 									<div class="media-body">
-										<h4>Colorlib</h4>
-										<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										<h4>Flynn Group</h4>
+										<p>Web Application Developer <br />Toronto, Canada</p>
 									</div>
 								</div>
 							</li>
 							<li>
 								<span></span>
 								<div class="media">
-									<div class="d-flex">
-										<p>March 2017 to present</p>
+									<div class="d-flex  experience-date">
+										<p>Mar 2020 - Sep 2020</p>
 									</div>
 									<div class="media-body">
-										<h4>Colorlib</h4>
-										<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										<h4>Inlogik</h4>
+										<p>Software Engineer <br />Melbourne, Australia</p>
 									</div>
 								</div>
 							</li>
 							<li>
 								<span></span>
 								<div class="media">
-									<div class="d-flex">
-										<p>March 2017 to present</p>
+									<div class="d-flex  experience-date">
+										<p>Sep 2019 - Dec 2020</p>
 									</div>
 									<div class="media-body">
-										<h4>Colorlib</h4>
-										<p>Senior Web Developer <br />Santa monica, Los angeles</p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-					<div
-						class="tab-pane fade"
-						id="profile"
-						role="tabpanel"
-						aria-labelledby="profile-tab"
-					>
-						<ul class="list">
-							<li>
-								<span></span>
-								<div class="media">
-									<div class="d-flex">
-										<p>March 2017 to present</p>
-									</div>
-									<div class="media-body">
-										<h4>Colorlib</h4>
-										<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										<h4>
+											Your HR System <br />
+											<small>3 Month Contract</small>
+										</h4>
+										<p>Full Stack Web Developer <br />Melbourne, Australia</p>
 									</div>
 								</div>
 							</li>
 							<li>
 								<span></span>
 								<div class="media">
-									<div class="d-flex">
-										<p>March 2017 to present</p>
+									<div class="d-flex  experience-date">
+										<p>Jul 2018 - Feb 2020</p>
 									</div>
 									<div class="media-body">
-										<h4>Colorlib</h4>
-										<p>Senior Web Developer <br />Santa monica, Los angeles</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<span></span>
-								<div class="media">
-									<div class="d-flex">
-										<p>March 2017 to present</p>
-									</div>
-									<div class="media-body">
-										<h4>Colorlib</h4>
-										<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										<h4>ANZUK Education</h4>
+										<p>Full Stack Web Developer <br />Melbourne, Australia</p>
 									</div>
 								</div>
 							</li>
@@ -130,4 +77,16 @@ export default {};
 </script>
 
 <style>
+	.experience-header h1 {
+		text-align: center;
+		color: white;
+		font-family: "Heebo", sans-serif;
+		font-size: 36px;
+		padding-bottom: 70px;
+		text-transform: uppercase;
+	}
+
+	.experience-date {
+		min-width: 250px;
+	}
 </style>

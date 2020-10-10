@@ -4,7 +4,7 @@ import router from './router';
 import store from './store';
 import BootstrapVue from 'bootstrap-vue';
 
-import 'font-awesome/css/font-awesome.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'linearicons/dist/web-font/style.css';
 
 import 'bootstrap/dist/css/bootstrap.css';

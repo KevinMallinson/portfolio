@@ -22,9 +22,6 @@
 								</p>
 								<ul class="list basic_info">
 									<li>
-										<a href="#"><i class="lnr lnr-calendar-full"></i> 27th October, 1994</a>
-									</li>
-									<li>
 										<a href="#"><i class="lnr lnr-phone-handset"></i> +1 (647) 527 6847</a>
 									</li>
 									<li>
