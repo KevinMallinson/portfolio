@@ -1,18 +1,31 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-  </div>
+	<div>
+		<gradient-container v-first-element>
+			<page-banner />
+		</gradient-container>
+
+		<page-welcome />
+
+		<gradient-container>
+			<page-experience />
+		</gradient-container>
+	</div>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-
-@Component({
-  components: {
-    HelloWorld,
-  },
-})
-export default class Home extends Vue {}
+<script>
+import PageBanner from '@/components/banner.vue';
+import PageWelcome from '@/components/welcome.vue';
+import PageExperience from '@/components/experience.vue';
+import GradientContainer from '@/components/gradientcontainer.vue';
+export default {
+	components: {
+		GradientContainer,
+		PageBanner,
+		PageWelcome,
+		PageExperience,
+	},
+};
 </script>
+
+<style>
+</style>
