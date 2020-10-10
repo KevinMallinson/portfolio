@@ -22,21 +22,21 @@
 								</p>
 								<ul class="list basic_info">
 									<li>
-										<a href="#"><i class="lnr lnr-phone-handset"></i> +1 (647) 527 6847</a>
+										<a href="#"><i class="fas fa-phone"></i> +1 (647) 527 6847</a>
 									</li>
 									<li>
-										<a href="#"><i class="lnr lnr-envelope"></i> kevin@kmallinson.ca</a>
+										<a href="#"><i class="fas fa-envelope"></i> kevin@kmallinson.ca</a>
 									</li>
 									<li>
-										<a href="#"><i class="lnr lnr-home"></i> Toronto, Ontario, Canada</a>
+										<a href="#"><i class="fas fa-map-marker-alt"></i> Toronto, Ontario, Canada</a>
 									</li>
 								</ul>
 								<ul class="list personal_social">
 									<li>
-										<a href="https://github.com/kevinmallinson"><i class="fa fa-github"></i></a>
+										<a href="https://github.com/kevinmallinson"><i class="fab fa-github"></i></a>
 									</li>
 									<li>
-										<a href="https://www.linkedin.com/in/kevin-mallinson-8a771511b/"><i class="fa fa-linkedin"></i></a>
+										<a href="https://www.linkedin.com/in/kevin-mallinson-8a771511b/"><i class="fab fa-linkedin"></i></a>
 									</li>
 								</ul>
 							</div>
