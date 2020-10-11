@@ -73,7 +73,7 @@
 export default {};
 </script>
 
-<style>
+<style lang="scss">
 	.achievements-header h1 {
 		text-align: center;
 		color: black;
@@ -83,4 +83,72 @@ export default {};
 		text-transform: uppercase;
 	}
 
+	.feature_area{
+		background: #f9f9ff;
+		&.feature_tow{
+			background: #fff;
+			.feature_item{
+				background: #f9f9ff;
+				&:hover{
+					background: #fff;
+				}
+			}
+		}
+		&.white_feature{
+			background: #fff;
+			.feature_item{
+				background: #f9f9ff;
+				&:hover{
+					background: #fff;
+				}
+			}
+		}
+	}
+	.feature_inner{
+		margin-bottom: -30px;
+	}
+	.feature_item{
+		padding: 50px 35px;
+		border-radius: 10px;
+		@include transition;
+		background: #fff;
+		margin-bottom: 30px;
+		i{
+			margin-bottom: 35px;
+			display: block;
+			&:before{
+				margin-left: 0px;
+				font-size: 60px;
+				color: #e1e1e1;
+				line-height: 60px;
+			}
+		}
+		h4{
+			color: $dip;
+			font-size: 21px;
+			font-family: $hee;
+			font-weight: bold;
+			margin-bottom: 20px;
+			text-transform: uppercase;
+		}
+		p{
+			margin-bottom: 0px;
+		}
+		.main_btn{
+			padding: 0px 30px;
+			line-height: 38px;
+		}
+		&:hover{
+			box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+			border-color: #fff;
+			background: #fff;
+			i{
+				&:before{
+					background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+					background-clip: text;
+					-webkit-text-fill-color: transparent;
+				}
+			}
+		}
+	}
 </style>
