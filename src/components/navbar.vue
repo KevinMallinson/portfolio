@@ -16,12 +16,12 @@
 
 		<b-collapse id="nav-collapse" is-nav>
 			<b-navbar-nav class="ml-auto" right>
-				<b-nav-item href="#">Home</b-nav-item>
-				<b-nav-item href="#">About</b-nav-item>
-				<b-nav-item href="#">Services</b-nav-item>
-				<b-nav-item href="#">Pages</b-nav-item>
-				<b-nav-item href="#">Blog</b-nav-item>
-				<b-nav-item href="#" class="no-right-padding">Contact</b-nav-item>
+				<b-nav-item href="#hello">Home</b-nav-item>
+				<b-nav-item href="#about-me">About</b-nav-item>
+				<b-nav-item href="#experience">Experience</b-nav-item>
+				<b-nav-item href="#achievements">Achievements</b-nav-item>
+				<b-nav-item href="https://github.com/kevinmallinson" target="_blank">Github</b-nav-item>
+				<b-nav-item href="#contact" class="no-right-padding">Contact</b-nav-item>
 			</b-navbar-nav>
 		</b-collapse>
 	</b-navbar>
