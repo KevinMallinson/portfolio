@@ -15,7 +15,7 @@ import PageFooter from '@/components/footer.vue';
 export default {
 	components: {
 		PageNavbar,
-		PageFooter,
+		PageFooter
 	}
 };
 </script>

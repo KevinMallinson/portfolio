@@ -12,8 +12,6 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 import '@/assets/scss/main.scss';
 
-import './directives/firstElement.js';
-
 Vue.config.productionTip = false;
 
 Vue.use(BootstrapVue);

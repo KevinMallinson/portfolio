@@ -11,10 +11,7 @@ module.exports = {
 					],
 					indentedSyntax: false,
 				},
-				prependData: `
-					@import "src/assets/scss/_variables.scss"; 
-					@import "src/assets/scss/_mixins.scss";
-				`,
+				prependData: '@import "src/assets/scss/_variables.scss";'
 			},
 		},
 	}

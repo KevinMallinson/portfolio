@@ -1,65 +1,96 @@
 <template>
-	<b-container class="experience-container">
+	<b-container class="experience-container pt-5 pb-5">
 		<b-row>
-			<b-col cols="12" class="experience-header p-5">
+			<b-col lg="12" class="experience-header pb-5">
 				<h1>My Experience</h1>
 			</b-col>
 		</b-row>
 		<b-row>
-			<b-col cols="12">
-				<ul class="experience-list">
-						<li>
-							<span></span>
-							<div class="media">
-								<div class="d-flex experience-date">
-									<p>Oct 2020 - Present</p>
-								</div>
-								<div class="media-body">
-									<h4>Flynn Group</h4>
-									<p>Web Application Developer <br />Toronto, Canada</p>
-								</div>
+			<b-col lg="12">
+				<div class="experience-accordion" role="tablist">
+					<b-card no-body header-bg-variant="transparent">
+						<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block v-b-toggle.accordion-1 variant="transparent">
+							<div class="flex-heading d-flex justify-content-between">
+								<span class="experience-dates left-item">Oct 2020 - Present Day</span>
+								<span class="middle-item">Flynn Canada</span>
+								<i class="fas fa-angle-down nav-arrow right-item"></i>
 							</div>
-						</li>
-						<li>
-							<span></span>
-							<div class="media">
-								<div class="d-flex experience-date">
-									<p>Mar 2020 - Sep 2020</p>
-								</div>
-								<div class="media-body">
-									<h4>Inlogik</h4>
-									<p>Software Engineer <br />Melbourne, Australia</p>
-								</div>
+						</b-button>
+						</b-card-header>
+						<b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+							<b-card-body>
+								<p>Check back later, as I just started here, so nothing to report so far!</p>
+							</b-card-body>
+						</b-collapse>
+					</b-card>
+
+					<b-card no-body>
+						<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block v-b-toggle.accordion-2 variant="transparent">
+							<div class="flex-heading d-flex justify-content-between">
+								<span class="experience-dates left-item">Mar 2020 - Sep 2020</span>
+								<span class="middle-item">Inlogik</span>
+								<i class="fas fa-angle-down nav-arrow right-item"></i>
 							</div>
-						</li>
-						<li>
-							<span></span>
-							<div class="media">
-								<div class="d-flex experience-date">
-									<p>Sep 2019 - Dec 2020</p>
-								</div>
-								<div class="media-body">
-									<h4>
-										Your HR System <br />
-										<small>3 Month Contract</small>
-									</h4>
-									<p>Full Stack Web Developer <br />Melbourne, Australia</p>
-								</div>
+						</b-button>
+						</b-card-header>
+						<b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+							<b-card-body>
+								<b-card-text>
+									<p>Worked on white label systems which are developed for banks to enter the corporate credit card business, allowing us to write the solution and the banks to cater it to their needs.</p>
+									<p>Wrote solutions for importing of various different banks customer/transaction/company files, namely with VCF and CDF specifications (Visa and Mastercard, respectively)</p>
+									<p>Worked on setting up various banks for use in our system, namely HSBC HK, Commonwealth Bank of Australia, National Bank of Canada, and ASB Bank New Zealand.</p>
+									<p>Extensive experimental testing to bring forward a legacy codebase into a modern, testable, and efficient codebase.</p>
+									<p>Worked primarily with ASP.NET Core and followed principles of Domain Driven Design and Event Sourcing, which is catered for the financial industry due to its excellent auditability, and the ability to query data in ways that are not foreseen ahead of time, as all data is preserved, even when deleted, in the event log.</p>
+								</b-card-text>
+							</b-card-body>
+						</b-collapse>
+					</b-card>
+
+					<b-card no-body>
+						<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block v-b-toggle.accordion-3 variant="transparent">
+							<div class="flex-heading d-flex justify-content-between">
+								<span class="experience-dates left-item">Sep 2019 - Dec 2019</span>
+								<span class="middle-item">Your HR System</span>
+								<i class="fas fa-angle-down nav-arrow right-item"></i>
 							</div>
-						</li>
-						<li>
-							<span></span>
-							<div class="media">
-								<div class="d-flex experience-date">
-									<p>Jul 2018 - Feb 2020</p>
-								</div>
-								<div class="media-body">
-									<h4>ANZUK Education</h4>
-									<p>Full Stack Web Developer <br />Melbourne, Australia</p>
-								</div>
+						</b-button>
+						</b-card-header>
+						<b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+							<b-card-body>
+								<b-card-text>
+									<p>Received a contract to plan, design, and implement new features on 'Your Hr System' - a web app for managing general HR for small companies.</p>
+									<p>Designed and implemented a feature in Your HR System which provides companies the ability to perform Check In's with their staff, ensuring their staff are in a good place mentally, and raise any concerns they might have.</p>
+								</b-card-text>
+							</b-card-body>
+						</b-collapse>
+					</b-card>
+
+					<b-card no-body>
+						<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block v-b-toggle.accordion-4 variant="transparent">
+							<div class="flex-heading d-flex justify-content-between">
+								<span class="experience-dates left-item">July 2018 - Feb 2020</span>
+								<span class="middle-item">ANZUK Education</span>
+								<i class="fas fa-angle-down nav-arrow right-item"></i>
 							</div>
-						</li>
-					</ul>
+						</b-button>
+						</b-card-header>
+						<b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
+							<b-card-body>
+								<b-card-text>
+									<p>Designed, developed, maintained and project managed OwnPool, a product for schools to manage their staff.</p>
+									<p>Assisted in choosing technical stack for OwnPool: ASP.NET Core, Vue.js, and Microsoft Azure for database, cdn, backend, frontend and other services like logging, blob storage, etc.</p>
+									<p>Conducted analysis to address flaky selenium tests which led to integrating the 'Page Object Model' to boost productivity of writing tests for our QA Engineer, and also significantly improving the reliability of our tests.</p>
+									<p>Wrote a very extensive API integration between 'OwnPool' and 'Relief Roster', allowing us to be the only company in our market offering immediate agency assistance directly within their own booking portal.</p>
+									<p>Designed and implemented our continuous integration and continuous delivery systems, using Microsoft Azure.</p>
+								</b-card-text>
+							</b-card-body>
+						</b-collapse>
+					</b-card>
+				</div>
 			</b-col>
 		</b-row>
 	</b-container>
@@ -78,53 +109,35 @@ export default {};
 		text-align: center;
 	}
 
-	.experience-date {
-		min-width: 250px;
+	.experience-accordion button {
+		color: white;
+		border: none;
+		border-radius: 0px;
 	}
 
-	.experience-list {
-		max-width: 460px;
-		margin: auto;
-		position: relative;
-		padding-top: 40px;
+	.experience-accordion header {
+		border: none;
+		border-radius: 0px;
+		
 	}
 
-	.experience-list:before {
-		content: "";
-		height: 100%;
-		width: 5px;
-		background: rgba(255, 255, 255, 0.2);
-		position: absolute;
-		left: 46%;
-		transform: translateX(-50%);
-		top: -5px;
+	.experience-accordion .card {
+		background: transparent;
+		border-radius: 0px;
 	}
 
-	li {
-		margin-bottom: 60px;
+	.left-item {
+		width: 34%;
+		text-align: left;
 	}
 
-	li span {
-		height: 15px;
-		width: 15px;
-		border-radius: 50%;
-		display: block;
-		background: rgba(255, 255, 255, 0.2);
-		position: absolute;
-		left: 46%;
-		transform: translateX(-50%);
+	.middle-item {
+		width: 32%;
+		text-align: center;
 	}
 
-	li span:before {
-		content: "";
-		height: 7px;
-		width: 7px;
-		background: #fff;
-		border-radius: 50%;
-		position: absolute;
-		left: 52%;
-		top: 4px;
-		transform: translateX(-50%);
+	.right-item {
+		width: 34%;
+		text-align: right;
 	}
-	
 </style>

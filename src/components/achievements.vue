@@ -1,15 +1,15 @@
 <template>
-	<div class="achievements-container p_120">
+	<div class="achievements-container pt-5 pb-5">
 		<b-container>
 			<b-row>
-				<b-col cols="12">
+				<b-col lg="12">
 					<div class="achievements-header">
 						<h1>My Achievements</h1>
 					</div>
 				</b-col>
 			</b-row>
 			<b-row class="achievements-content">
-				<b-col cols="4">
+				<b-col lg="4">
 					<b-card title="OWNPOOL" class="achievements-item">
 						<b-card-text>
 							Helped to create and develop an education platform which allows schools to
@@ -19,7 +19,7 @@
 						</b-card-text>
 					</b-card>
 				</b-col>
-				<b-col cols="4">
+				<b-col lg="4">
 					<b-card title="HR CHECKINS" class="achievements-item">
 						<b-card-text>
 							Developed a feature in Your HR System which allows companies to check in on
@@ -29,7 +29,7 @@
 						</b-card-text>
 					</b-card>
 				</b-col>
-				<b-col cols="4">
+				<b-col lg="4">
 					<b-card title="FINANCE APPLICATIONS" class="achievements-item">
 						<b-card-text>
 							Helped create a new version an internal application to parse of Visa's VCF specification
@@ -38,7 +38,7 @@
 						</b-card-text>
 					</b-card>
 				</b-col>
-				<b-col cols="4">
+				<b-col lg="4">
 					<b-card title="SUPER CHIP8" class="achievements-item">
 						<b-card-text>
 							As a way to learn low level programming, I have built and completed 
@@ -46,7 +46,7 @@
 						</b-card-text>
 					</b-card>
 				</b-col>
-				<b-col cols="4">
+				<b-col lg="4">
 					<b-card title="GAMEBOY" class="achievements-item">
 						<b-card-text>
 							In order to continue to learn assembly, computer engineering and low level programming,
@@ -54,7 +54,7 @@
 						</b-card-text>
 					</b-card>
 				</b-col>
-				<b-col cols="4">
+				<b-col lg="4">
 					<b-card title="PORTFOLIO" class="achievements-item">
 						<b-card-text>
 							This portfolio that you are viewing right now, is open source and available on my github here.

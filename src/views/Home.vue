@@ -1,16 +1,9 @@
 <template>
 	<div>
-		<gradient-container v-first-element>
-			<page-banner />
-		</gradient-container>
-
-		<page-about />
-
-		<gradient-container>
-			<page-experience />
-		</gradient-container>
-
-		<page-achievements />
+		<page-banner id="hello" />
+		<page-about id="about-me" />
+		<page-experience id="experience" />
+		<page-achievements id="achievements" />
 	</div>
 </template>
 
@@ -18,11 +11,9 @@
 import PageBanner from '@/components/banner.vue';
 import PageAbout from '@/components/about.vue';
 import PageExperience from '@/components/experience.vue';
-import GradientContainer from '@/components/gradientcontainer.vue';
 import PageAchievements from '@/components/achievements.vue';
 export default {
 	components: {
-		GradientContainer,
 		PageBanner,
 		PageAbout,
 		PageExperience,
@@ -32,4 +23,7 @@ export default {
 </script>
 
 <style>
+	body {
+		background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+	}
 </style>
