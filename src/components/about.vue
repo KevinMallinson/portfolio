@@ -9,7 +9,7 @@
 						</b-col>
 						<b-col cols="12">
 							<p>
-								Since I was young I had a passion for code. Cultivated when I was 16 by making
+								Since I was young, I had a passion for code. Cultivated when I was 16 by making
 								a very successful mod for Tony Hawk's Underground 2, along with other hobby projects.
 								Eventually I decided that since I loved coding, it was to be my career - and it was a great choice.
 								Being able to do what I love every day, engaging my mind with complex problems and solving them is 
